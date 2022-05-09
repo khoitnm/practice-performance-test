@@ -1,4 +1,4 @@
-package org.tnmk.practicejmeter.pro00hsqlsimple.sample.entity;
+package org.tnmk.practicejmeter.pro00hsqlsimple.sample;
 
 import lombok.Data;
 

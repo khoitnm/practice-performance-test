@@ -1,8 +1,8 @@
-package org.tnmk.practicejmeter.pro00hsqlsimple.sample.repository;
+package org.tnmk.practicejmeter.pro00hsqlsimple.sample;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
-import org.tnmk.practicejmeter.pro00hsqlsimple.sample.entity.SimpleEntity;
+import org.tnmk.practicejmeter.pro00hsqlsimple.sample.SimpleEntity;
 
 import javax.transaction.Transactional;
 

@@ -1,11 +1,11 @@
-package org.tnmk.practicejmeter.pro00hsqlsimple.sample.story;
+package org.tnmk.practicejmeter.pro00hsqlsimple.sample;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.event.ApplicationStartedEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Service;
-import org.tnmk.practicejmeter.pro00hsqlsimple.sample.entity.SimpleEntity;
-import org.tnmk.practicejmeter.pro00hsqlsimple.sample.repository.SimpleRepository;
+import org.tnmk.practicejmeter.pro00hsqlsimple.sample.SimpleEntity;
+import org.tnmk.practicejmeter.pro00hsqlsimple.sample.SimpleRepository;
 
 import javax.transaction.Transactional;
 

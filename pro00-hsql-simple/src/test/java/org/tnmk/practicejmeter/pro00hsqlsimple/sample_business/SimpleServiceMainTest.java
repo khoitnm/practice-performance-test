@@ -4,9 +4,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.tnmk.practicejmeter.pro00hsqlsimple.sample.entity.SimpleEntity;
-import org.tnmk.practicejmeter.pro00hsqlsimple.sample.repository.SimpleRepository;
-import org.tnmk.practicejmeter.pro00hsqlsimple.sample.story.SimpleService;
+import org.tnmk.practicejmeter.pro00hsqlsimple.sample.SimpleEntity;
+import org.tnmk.practicejmeter.pro00hsqlsimple.sample.SimpleRepository;
 import org.tnmk.practicejmeter.pro00hsqlsimple.testinfra.BaseSpringTest_WithActualDb;
 
 import java.util.Optional;
