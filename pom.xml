@@ -11,6 +11,7 @@
     <modules>
         <module>pro00-hsql-simple</module>
 		<module>pro00-mysql-simple</module>
+		<module>pro01-zerocode</module>
     </modules>
 
     <properties>
