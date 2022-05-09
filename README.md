@@ -5,3 +5,5 @@ Some options for Performance test:
   - https://github.com/authorjapps/zerocode
 - Spring Framework and Gatling: https://tempered.works/posts/2019-01-07-spring-boot-performance-part-1/
   - https://www.opsian.com/blog/performance-test-spring-boot-gatling/
+  - https://rieckpil.de/write-gatling-performance-tests-with-java/
+  - https://piotrminkowski.com/2018/01/18/perfomance-testing-with-gatling/
