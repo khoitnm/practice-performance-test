@@ -1,4 +1,4 @@
-package org.tnmk.practicejmeter.pro01zerocode.sample;
+package org.tnmk.practicejmeter.pro01zerocode.simple;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

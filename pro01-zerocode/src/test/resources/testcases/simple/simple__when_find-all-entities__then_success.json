@@ -1,0 +1,25 @@
+{
+  "scenarioName": "GIVEN- SimpleRepository is mock, WHEN- Finding simple-entities/all, THEN- I will receive the 200 status with mocked result body",
+  "steps": [
+    {
+      "name": "get_user_details",
+      "url": "/api/v1/pro01-zerocode/simple-entities/all",
+      "method": "GET",
+      "request": {
+      },
+      "verify": {
+        "status": 200,
+        "body": [
+          {
+            "id": 0,
+            "name": "MockSimple0"
+          },
+          {
+            "id": 1,
+            "name": "MockSimple1"
+          }
+        ]
+      }
+    }
+  ]
+}

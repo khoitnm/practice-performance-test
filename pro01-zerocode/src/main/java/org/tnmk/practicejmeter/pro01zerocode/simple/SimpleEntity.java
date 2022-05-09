@@ -1,6 +1,7 @@
-package org.tnmk.practicejmeter.pro01zerocode.sample;
+package org.tnmk.practicejmeter.pro01zerocode.simple;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -12,19 +13,16 @@ import javax.persistence.Table;
 @Data
 @Entity
 @Table(name = "sample_entity", catalog = "sample_db")
+@NoArgsConstructor
 public class SimpleEntity {
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
-  @Column(name = "sample_entity_id")
-  private Long sampleEntityId;
+  @Column(name = "id")
+  private Long id;
 
   private String name;
 
   public SimpleEntity(String name) {
     this.name = name;
-  }
-
-  public SimpleEntity() {
-
   }
 }
