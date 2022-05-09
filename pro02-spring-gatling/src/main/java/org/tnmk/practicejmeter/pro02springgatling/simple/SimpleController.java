@@ -1,4 +1,4 @@
-package org.tnmk.practicejmeter.pro02springgatling.sample;
+package org.tnmk.practicejmeter.pro02springgatling.simple;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

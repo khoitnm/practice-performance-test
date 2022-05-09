@@ -1,18 +1,15 @@
-package org.tnmk.practicejmeter.pro02springgatling.sample_business;
+package org.tnmk.practicejmeter.pro02springgatling.simple;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.tnmk.practicejmeter.pro02springgatling.sample.SimpleEntity;
-import org.tnmk.practicejmeter.pro02springgatling.sample.SimpleRepository;
-import org.tnmk.practicejmeter.pro02springgatling.testinfra.BaseSpringTest_WithActualDb;
-
+import org.tnmk.practicejmeter.pro02springgatling.testinfra.BaseSpring_IntegrationTest_WithActualDb;
 import java.util.Optional;
 import java.util.UUID;
 
 @Slf4j
-public class SimpleServiceMainTest extends BaseSpringTest_WithActualDb {
+public class SimpleServiceMain_IntegrationTest extends BaseSpring_IntegrationTest_WithActualDb {
 
   @Autowired
   private SimpleRepository simpleRepository;
@@ -26,7 +23,7 @@ public class SimpleServiceMainTest extends BaseSpringTest_WithActualDb {
     SimpleEntity result = simpleRepository.save(simpleEntity);
 
     // Then
-    assertExist(result.getSampleEntityId(), true);
+    assertExist(result.getId(), true);
   }
 
   private void assertExist(long entityId, boolean expectExist) {

@@ -1,11 +1,9 @@
-package org.tnmk.practicejmeter.pro02springgatling.sample;
+package org.tnmk.practicejmeter.pro02springgatling.simple;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.event.ApplicationStartedEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Service;
-import org.tnmk.practicejmeter.pro02springgatling.sample.SimpleEntity;
-import org.tnmk.practicejmeter.pro02springgatling.sample.SimpleRepository;
 
 import javax.transaction.Transactional;
 
