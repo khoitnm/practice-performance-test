@@ -7,3 +7,11 @@ Some options for Performance test:
   - https://www.opsian.com/blog/performance-test-spring-boot-gatling/
   - https://rieckpil.de/write-gatling-performance-tests-with-java/
   - https://piotrminkowski.com/2018/01/18/perfomance-testing-with-gatling/
+
+Mock Services with Load Test:
+- https://www.blazemeter.com/blog/how-to-run-mock-services-in-blazemeter
+- https://www.blazemeter.com/blog/what-is-service-virtualization
+- 
+
+Metrics for Performance Test:
+- https://www.soapui.org/learn/load-testing/key-performance-indicators-for-load-testing/
