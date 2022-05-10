@@ -11,7 +11,7 @@ Some options for Performance test:
 Mock Services with Load Test:
 - https://www.blazemeter.com/blog/how-to-run-mock-services-in-blazemeter
 - https://www.blazemeter.com/blog/what-is-service-virtualization
-- 
+- Discussion about Mockito with LoadTest: https://stackoverflow.com/questions/47644282/using-mockito-for-api-stubbing-load-test
 
 Metrics for Performance Test:
 - https://www.soapui.org/learn/load-testing/key-performance-indicators-for-load-testing/
