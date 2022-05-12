@@ -10,9 +10,9 @@
 
     <modules>
         <module>pro00-hsql-simple</module>
-		<module>pro00-mysql-simple</module>
-<!--		<module>pro01-zerocode</module> &lt;!&ndash; Don't really continue investigate on it, please read its README for more details &ndash;&gt;-->
-        <module>pro02-spring-gatling</module>
+        <module>pro00-mysql-simple</module>
+        <!--		<module>pro01-zerocode</module> &lt;!&ndash; Don't really continue investigate on it, please read its README for more details &ndash;&gt;-->
+        <!--        <module>pro02-spring-gatling</module>--> <!-- Temporary don't focus on Gatling at this moment, I change direction to Mock Services approach first -->
     </modules>
 
     <properties>
