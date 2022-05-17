@@ -1,4 +1,4 @@
-package org.tnmk.practicejmeter.pro03wiremock.sample;
+package org.tnmk.practicejmeter.pro0301wiremocksimpleapp.sample;
 
 import lombok.Data;
 

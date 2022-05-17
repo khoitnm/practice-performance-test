@@ -1,12 +1,12 @@
-package org.tnmk.practicejmeter.pro03wiremock.sample_business;
+package org.tnmk.practicejmeter.pro0301wiremocksimpleapp.sample_business;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.tnmk.practicejmeter.pro03wiremock.sample.SimpleEntity;
-import org.tnmk.practicejmeter.pro03wiremock.sample.SimpleRepository;
-import org.tnmk.practicejmeter.pro03wiremock.testinfra.BaseSpringTest_WithActualDb;
+import org.tnmk.practicejmeter.pro0301wiremocksimpleapp.sample.SimpleEntity;
+import org.tnmk.practicejmeter.pro0301wiremocksimpleapp.sample.SimpleRepository;
+import org.tnmk.practicejmeter.pro0301wiremocksimpleapp.testinfra.BaseSpringTest_WithActualDb;
 
 import java.util.Optional;
 import java.util.UUID;

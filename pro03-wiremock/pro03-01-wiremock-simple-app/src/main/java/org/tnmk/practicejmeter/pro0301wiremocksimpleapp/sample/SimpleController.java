@@ -1,4 +1,4 @@
-package org.tnmk.practicejmeter.pro03wiremock.sample;
+package org.tnmk.practicejmeter.pro0301wiremocksimpleapp.sample;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,7 +12,7 @@ public class SimpleController {
 
   private final SimpleRepository simpleRepository;
 
-  @GetMapping("/api/v1/pro03-wiremock/simple-entities/all")
+  @GetMapping("/api/v1/pro03-01-wiremock-simple-app/simple-entities/all")
   public List<SimpleEntity> findAll() {
     return simpleRepository.findAll();
   }

@@ -1,8 +1,8 @@
-package org.tnmk.practicejmeter.pro03wiremock.sample;
+package org.tnmk.practicejmeter.pro0301wiremocksimpleapp.sample;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
-import org.tnmk.practicejmeter.pro03wiremock.sample.SimpleEntity;
+import org.tnmk.practicejmeter.pro0301wiremocksimpleapp.sample.SimpleEntity;
 
 import javax.transaction.Transactional;
 
