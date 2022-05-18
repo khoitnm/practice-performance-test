@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "url": "/api/entity",
+    "urlPath": "/api/entity",
     "queryParameters": {
       "name": {
         "matches": ".*"
@@ -10,9 +10,11 @@
   },
   "response": {
     "status": 200,
-    "body": "More content\n",
+    "headers": {
+      "Content-Type": "application/json"
+    },
     "jsonBody": {
-      "id": "[0-9]+",
+      "id": "{{randomValue length=10 type='NUMERIC'}}",
       "name": "{{request.query.name}}"
     }
   }
