@@ -15,7 +15,6 @@ public class SimpleService {
   @Autowired
   private SimpleRepository simpleRepository;
 
-  @EventListener(ApplicationStartedEvent.class)
   public SimpleEntity createSample() {
     SimpleEntity simpleEntity = new SimpleEntity();
     simpleEntity.setName("AAA");

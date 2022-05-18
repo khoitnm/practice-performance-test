@@ -9,7 +9,7 @@ services:
     command:
       - "--global-response-templating"
     volumes:
-      - ./wiremock/foo-api:/home/wiremock
+      - ./wiremock/external-service-a:/home/wiremock
 
   external-service-b:
     image: wiremock/wiremock:2.32.0
@@ -18,4 +18,4 @@ services:
     command:
       - "--global-response-templating"
     volumes:
-      - ./wiremock/bar-api:/home/wiremock
+      - ./wiremock/external-service-b:/home/wiremock
