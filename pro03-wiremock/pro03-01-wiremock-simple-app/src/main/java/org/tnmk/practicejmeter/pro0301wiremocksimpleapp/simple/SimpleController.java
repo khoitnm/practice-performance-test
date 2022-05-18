@@ -1,4 +1,4 @@
-package org.tnmk.practicejmeter.pro0301wiremocksimpleapp.sample;
+package org.tnmk.practicejmeter.pro0301wiremocksimpleapp.simple;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

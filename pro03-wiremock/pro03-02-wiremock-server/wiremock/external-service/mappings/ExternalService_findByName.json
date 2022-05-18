@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/api/entity",
+    "queryParameters": {
+      "name": {
+        "matches": ".*"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": "More content\n",
+    "jsonBody": {
+      "id": "[0-9]+",
+      "name": "{{request.query.name}}"
+    }
+  }
+}

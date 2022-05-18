@@ -1,11 +1,7 @@
-package org.tnmk.practicejmeter.pro0301wiremocksimpleapp.sample;
+package org.tnmk.practicejmeter.pro0301wiremocksimpleapp.simple;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.context.event.ApplicationStartedEvent;
-import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Service;
-import org.tnmk.practicejmeter.pro0301wiremocksimpleapp.sample.SimpleEntity;
-import org.tnmk.practicejmeter.pro0301wiremocksimpleapp.sample.SimpleRepository;
 
 import javax.transaction.Transactional;
 

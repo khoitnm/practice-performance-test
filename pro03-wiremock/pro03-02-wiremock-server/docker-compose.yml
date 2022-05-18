@@ -2,20 +2,20 @@ version: "3.9"
 
 services:
 
-  external-service-a:
+  external-service:
     image: wiremock/wiremock:2.32.0
     ports:
       - "8081:8080"
     command:
       - "--global-response-templating"
     volumes:
-      - ./wiremock/external-service-a:/home/wiremock
+      - ./wiremock/external-service:/home/wiremock
 
-  external-service-b:
-    image: wiremock/wiremock:2.32.0
-    ports:
-      - "8082:8080"
-    command:
-      - "--global-response-templating"
-    volumes:
-      - ./wiremock/external-service-b:/home/wiremock
+#  external-service-b:
+#    image: wiremock/wiremock:2.32.0
+#    ports:
+#      - "8082:8080"
+#    command:
+#      - "--global-response-templating"
+#    volumes:
+#      - ./wiremock/external-service-b:/home/wiremock

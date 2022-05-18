@@ -1,11 +1,9 @@
-package org.tnmk.practicejmeter.pro0301wiremocksimpleapp.sample_business;
+package org.tnmk.practicejmeter.pro0301wiremocksimpleapp.simple;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.tnmk.practicejmeter.pro0301wiremocksimpleapp.sample.SimpleEntity;
-import org.tnmk.practicejmeter.pro0301wiremocksimpleapp.sample.SimpleRepository;
 import org.tnmk.practicejmeter.pro0301wiremocksimpleapp.testinfra.BaseSpringTest_WithActualDb;
 
 import java.util.Optional;
@@ -26,7 +24,7 @@ public class SimpleServiceMainTest extends BaseSpringTest_WithActualDb {
     SimpleEntity result = simpleRepository.save(simpleEntity);
 
     // Then
-    assertExist(result.getSampleEntityId(), true);
+    assertExist(result.getId(), true);
   }
 
   private void assertExist(long entityId, boolean expectExist) {
