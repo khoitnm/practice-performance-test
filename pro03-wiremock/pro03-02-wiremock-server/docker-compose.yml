@@ -11,11 +11,16 @@ services:
     volumes:
       - ./wiremock/external-service:/home/wiremock
 
-#  external-service-b:
-#    image: wiremock/wiremock:2.32.0
-#    ports:
-#      - "8082:8080"
-#    command:
-#      - "--global-response-templating"
-#    volumes:
-#      - ./wiremock/external-service-b:/home/wiremock
+  # Guideline: https://meta.stoplight.io/docs/prism/ZG9jOjky-installation
+  twilio:
+    image: stoplight/prism:4
+
+    # Prism uses localhost by default, which usually means 127.0.0.1.
+    # When using docker the mock server will be unreachable outside of the container
+    # unless you run the mock command with -h 0.0.0.0.
+    command: 'mock -h 0.0.0.0 https://raw.githubusercontent.com/twilio/twilio-oai/main/spec/json/twilio_api_v2010.json'
+    volumes:
+      - ./api.oas3.yml:/tmp/api.oas3.yml:ro
+    ports:
+      # Serve the mocked API locally as available on port 8080
+      - '8082:4010'
