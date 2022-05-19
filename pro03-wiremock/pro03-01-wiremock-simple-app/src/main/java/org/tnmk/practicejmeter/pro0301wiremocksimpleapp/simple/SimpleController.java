@@ -18,7 +18,7 @@ public class SimpleController {
     return simpleRepository.findAll();
   }
 
-  @GetMapping("/api/v1/pro03-01-wiremock-simple-app/entities")
+  @GetMapping("/api/v1/pro03-01-wiremock-simple-app/simple-entity")
   public SimpleEntity findByName(@RequestParam("name") String name) {
     return externalService.findByName(name);
   }
